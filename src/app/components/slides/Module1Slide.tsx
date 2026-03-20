@@ -2,7 +2,7 @@ import { UserPlus, Mail, CheckCircle2, AlertTriangle, GitBranch, Database } from
 
 export function Module1Slide() {
   return (
-    <div className="w-full max-w-6xl bg-white rounded-2xl shadow-2xl p-12">
+    <div className="w-full max-w-6xl max-h-full overflow-y-auto bg-white rounded-2xl shadow-2xl p-12">
       <h1 className="text-4xl text-slate-800 mb-3">Module 1: Automated Vendor Onboarding</h1>
       <p className="text-lg text-blue-600 mb-8">
         Streamlining SCM operations while ensuring 100% compliance

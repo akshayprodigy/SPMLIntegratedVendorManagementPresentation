@@ -3,7 +3,7 @@ import { Cpu, Zap, Shield, Users } from "lucide-react";
 
 export function AboutSlide() {
   return (
-    <div className="w-full max-w-6xl bg-white rounded-2xl shadow-2xl p-12">
+    <div className="w-full max-w-6xl max-h-full overflow-y-auto bg-white rounded-2xl shadow-2xl p-12">
       <div className="flex items-center gap-4 mb-8">
         <img src={logo} alt="Innocore Labs" className="w-20 h-20 object-contain" />
         <h1 className="text-4xl text-slate-800">About Innocore Labs</h1>

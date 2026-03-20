@@ -2,7 +2,7 @@ import { Brain, ScanLine, Sparkles, TrendingUp } from "lucide-react";
 
 export function FutureRoadmapSlide() {
   return (
-    <div className="w-full max-w-6xl bg-white rounded-2xl shadow-2xl p-12">
+    <div className="w-full max-w-6xl max-h-full overflow-y-auto bg-white rounded-2xl shadow-2xl p-12">
       <h1 className="text-4xl text-slate-800 mb-3">Future Roadmap: AI Integration</h1>
       <p className="text-lg text-blue-600 mb-8">
         Enhancements to be implemented in Phase 2

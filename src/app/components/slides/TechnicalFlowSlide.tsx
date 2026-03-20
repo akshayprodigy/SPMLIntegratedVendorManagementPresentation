@@ -2,7 +2,7 @@ import { Shield, Zap, Database, Smartphone } from "lucide-react";
 
 export function TechnicalFlowSlide() {
   return (
-    <div className="w-full max-w-6xl bg-white rounded-2xl shadow-2xl p-12">
+    <div className="w-full max-w-6xl max-h-full overflow-y-auto bg-white rounded-2xl shadow-2xl p-12">
       <h1 className="text-4xl text-slate-800 mb-8">Technical Flow & Security</h1>
 
       <div className="grid grid-cols-2 gap-6">

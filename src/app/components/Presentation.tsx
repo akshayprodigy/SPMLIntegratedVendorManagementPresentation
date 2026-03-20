@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { TitleSlide } from "./slides/TitleSlide";
 import { AboutSlide } from "./slides/AboutSlide";
-import { CredentialsSlide } from "./slides/CredentialsSlide";
 import { ProblemStatementSlide } from "./slides/ProblemStatementSlide";
 import { ExecutiveSummarySlide } from "./slides/ExecutiveSummarySlide";
 import { Module1Slide } from "./slides/Module1Slide";
@@ -11,12 +10,12 @@ import { Module3Slide } from "./slides/Module3Slide";
 import { Module4Slide } from "./slides/Module4Slide";
 import { TechnicalFlowSlide } from "./slides/TechnicalFlowSlide";
 import { FutureRoadmapSlide } from "./slides/FutureRoadmapSlide";
+import { CredentialsSlide } from "./slides/CredentialsSlide";
 import { ConclusionSlide } from "./slides/ConclusionSlide";
 
 const slides = [
   TitleSlide,
   AboutSlide,
-  CredentialsSlide,
   ProblemStatementSlide,
   ExecutiveSummarySlide,
   Module1Slide,
@@ -25,6 +24,7 @@ const slides = [
   Module4Slide,
   TechnicalFlowSlide,
   FutureRoadmapSlide,
+  CredentialsSlide,
   ConclusionSlide,
 ];
 
@@ -50,7 +50,7 @@ export function Presentation() {
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100">
       <div className="container mx-auto px-8 py-8 h-screen flex flex-col">
         {/* Slide Content */}
-        <div className="flex-1 flex items-center justify-center">
+        <div className="flex-1 min-h-0 flex items-center justify-center overflow-hidden">
           <CurrentSlideComponent />
         </div>
 

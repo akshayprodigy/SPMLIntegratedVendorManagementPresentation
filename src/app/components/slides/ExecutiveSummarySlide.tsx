@@ -2,7 +2,7 @@ import { Target, TrendingUp, Shield, Eye } from "lucide-react";
 
 export function ExecutiveSummarySlide() {
   return (
-    <div className="w-full max-w-6xl bg-white rounded-2xl shadow-2xl p-12">
+    <div className="w-full max-w-6xl max-h-full overflow-y-auto bg-white rounded-2xl shadow-2xl p-12">
       <h1 className="text-4xl text-slate-800 mb-8">Executive Summary</h1>
 
       <div className="bg-gradient-to-r from-blue-50 to-slate-50 rounded-xl p-8 mb-8 border border-blue-100">

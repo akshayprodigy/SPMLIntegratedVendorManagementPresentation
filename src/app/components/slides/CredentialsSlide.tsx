@@ -5,35 +5,35 @@ export function CredentialsSlide() {
   const clients = [
     {
       name: "CMRI",
-      project: "Healthcare Management System",
+      project: "WorkFlow Digitization ",
       highlights: [
-        "Patient data digitization and workflow automation",
-        "Real-time inventory tracking for medical supplies",
-        "Integrated billing and insurance claim processing",
+        "Capex Mangement System with real-time budget tracking",
+        "Vendor Onboarding and Non-PO Invoice Processing",
+        "Insurance and Internal Claim Processing",
+        "Travel Request and Expense Management System",
+        "Integration with SAP for seamless data flow and reporting",
       ],
     },
     {
       name: "Neo Sym",
-      project: "Enterprise Resource Planning",
+      project: "Vendor Management Portal",
       highlights: [
-        "Custom ERP solution with multi-location support",
-        "Advanced analytics dashboard for business intelligence",
-        "Seamless integration with existing legacy systems",
+       "Vendor Onboarding and Non-PO Invoice Processing",
       ],
     },
     {
       name: "United Explorations",
-      project: "Supply Chain Management Platform",
+      project: "HRMS & Project Management Portal",
       highlights: [
-        "End-to-end vendor management and procurement",
-        "Automated approval workflows with audit trails",
-        "Real-time budget tracking and CAPEX management",
+        "Employee Onboarding and Project Assignment System",
+        "Tracking of Project Progress and Resource Allocation",
+        "Integration with Payroll and Finance Systems for streamlined operations",
       ],
     },
   ];
 
   return (
-    <div className="w-full max-w-6xl bg-white rounded-2xl shadow-2xl p-12">
+    <div className="w-full max-w-6xl max-h-full overflow-y-auto bg-white rounded-2xl shadow-2xl p-12">
       <div className="flex items-center gap-4 mb-8">
         <img src={logo} alt="Innocore Labs" className="w-20 h-20 object-contain" />
         <h1 className="text-4xl text-slate-800">Our Work & Credentials</h1>

@@ -28,7 +28,7 @@ export function ProblemStatementSlide() {
   ];
 
   return (
-    <div className="w-full max-w-6xl bg-white rounded-2xl shadow-2xl p-12">
+    <div className="w-full max-w-6xl max-h-full overflow-y-auto bg-white rounded-2xl shadow-2xl p-12">
       <h1 className="text-4xl text-slate-800 mb-8">The Challenge</h1>
 
       <div className="grid grid-cols-2 gap-8 mb-10">

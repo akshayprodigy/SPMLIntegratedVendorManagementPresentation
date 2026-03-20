@@ -2,7 +2,7 @@ import { DollarSign, TrendingUp, AlertCircle, BarChart3, Eye, Shield } from "luc
 
 export function Module3Slide() {
   return (
-    <div className="w-full max-w-6xl bg-white rounded-2xl shadow-2xl p-12">
+    <div className="w-full max-w-6xl max-h-full overflow-y-auto bg-white rounded-2xl shadow-2xl p-12">
       <h1 className="text-4xl text-slate-800 mb-3">Module 3: Budget & CAPEX Management</h1>
       <p className="text-lg text-blue-600 mb-8">
         Giving management complete control over financial planning and expenditure

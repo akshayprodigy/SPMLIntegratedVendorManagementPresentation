@@ -2,7 +2,7 @@ import logo from "@/assets/aea7723317227b55894b1a977ad95840207704bd.png";
 
 export function TitleSlide() {
   return (
-    <div className="w-full max-w-5xl bg-white rounded-2xl shadow-2xl p-16 text-center">
+    <div className="w-full max-w-5xl max-h-full overflow-y-auto bg-white rounded-2xl shadow-2xl p-16 text-center">
       <div className="flex justify-center mb-8">
         <img src={logo} alt="Innocore Labs" className="w-64 h-64 object-contain" />
       </div>

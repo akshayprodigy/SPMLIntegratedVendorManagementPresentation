@@ -2,7 +2,7 @@ import { Shield, FileSearch, BarChart4, Lock } from "lucide-react";
 
 export function Module4Slide() {
   return (
-    <div className="w-full max-w-6xl bg-white rounded-2xl shadow-2xl p-12">
+    <div className="w-full max-w-6xl max-h-full overflow-y-auto bg-white rounded-2xl shadow-2xl p-12">
       <h1 className="text-4xl text-slate-800 mb-3">
         Module 4: Audit, Governance & Reporting
       </h1>

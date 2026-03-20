@@ -2,7 +2,7 @@ import { FileText, LayoutDashboard, CheckCircle, Clock, Users, Bell } from "luci
 
 export function Module2Slide() {
   return (
-    <div className="w-full max-w-6xl bg-white rounded-2xl shadow-2xl p-12">
+    <div className="w-full max-w-6xl max-h-full overflow-y-auto bg-white rounded-2xl shadow-2xl p-12">
       <h1 className="text-4xl text-slate-800 mb-3">Module 2: PO & Invoice Management</h1>
       <p className="text-lg text-blue-600 mb-8">
         Empowering management and SCM teams with complete control and visibility
