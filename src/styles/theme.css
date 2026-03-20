@@ -2,6 +2,12 @@
 
 :root {
   --font-size: 16px;
+  /**
+   * Slide card height control.
+   * Reduce this (increase the subtraction) if you want more breathing room.
+   * Examples: calc(100% - 2rem), calc(100% - 4rem), 80vh
+   */
+  --slide-card-max-height: calc(100% - 2rem);
   --background: #ffffff;
   --foreground: oklch(0.145 0 0);
   --card: #ffffff;

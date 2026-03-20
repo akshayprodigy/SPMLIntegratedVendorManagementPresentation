@@ -12,7 +12,7 @@ export function ConclusionSlide() {
   ];
 
   return (
-    <div className="w-full max-w-6xl max-h-full overflow-y-auto bg-white rounded-2xl shadow-2xl p-12">
+    <div className="w-full max-w-6xl max-h-[var(--slide-card-max-height)] overflow-y-auto bg-white rounded-2xl shadow-2xl p-12">
       <div className="flex items-center gap-4 mb-8">
         <img src={logo} alt="Innocore Labs" className="w-20 h-20 object-contain" />
         <div>
@@ -37,11 +37,11 @@ export function ConclusionSlide() {
         <h2 className="text-2xl mb-4 text-center">Why Choose Innocore Labs?</h2>
         <div className="grid grid-cols-3 gap-6 text-center">
           <div>
-            <div className="text-3xl mb-2">10+</div>
+            <div className="text-3xl mb-2">2+</div>
             <div className="text-sm text-blue-100">Years Experience</div>
           </div>
           <div>
-            <div className="text-3xl mb-2">50+</div>
+            <div className="text-3xl mb-2">7+</div>
             <div className="text-sm text-blue-100">Successful Projects</div>
           </div>
           <div>
@@ -58,21 +58,28 @@ export function ConclusionSlide() {
             <Mail className="w-5 h-5 text-blue-600" />
             <div>
               <div className="text-xs text-slate-500">Email</div>
-              <div className="text-sm text-slate-800">contact@innocorelabs.com</div>
+              <div className="text-sm text-slate-800">admin@innocorelabs.com</div>
             </div>
           </div>
           <div className="flex items-center gap-3 justify-center">
             <Phone className="w-5 h-5 text-blue-600" />
             <div>
               <div className="text-xs text-slate-500">Phone</div>
-              <div className="text-sm text-slate-800">+91 XXX XXX XXXX</div>
+              <div className="text-sm text-slate-800">+91 9804039639</div>
             </div>
           </div>
           <div className="flex items-center gap-3 justify-center">
             <Globe className="w-5 h-5 text-blue-600" />
             <div>
               <div className="text-xs text-slate-500">Website</div>
-              <div className="text-sm text-slate-800">www.innocorelabs.com</div>
+              <a
+                className="text-sm text-slate-800 hover:underline"
+                href="https://www.innocorelabs.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                www.innocorelabs.com
+              </a>
             </div>
           </div>
         </div>
